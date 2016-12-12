@@ -17,7 +17,6 @@ RUN apt-get update -y && \
     curl vile less gnupg \
     libgmp10
 
-
 RUN \
     cd /tmp && \
     wget https://github.com/jgm/pandoc/releases/download/1.17.0.2/pandoc-1.17.0.2-1-amd64.deb && \
